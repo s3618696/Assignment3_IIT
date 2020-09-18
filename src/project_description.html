@@ -195,7 +195,7 @@
               </p>
               <p>The user story diagram has been drawn as well, illustrated as below:</p>
               <div style="text-align:center">
-                <img src="./images/Mai/User_flow.png" alt="" />
+                <img src="../images/Mai/User_flow.png" alt="" />
               </div>
               <h4 class="entry-title">3. USER INTERFACE</h4>
               <p>The output of this step is the (1) Style guides; (2) Rendered designs; and (3) Wireframe testing. Here are the style guides we have set up for the app in terms of the voice & tone used in the app, the content type for different functions, and the general theme for our app, based on the taste of our targeted audiences who are white-collar workers, 20 to 35 years old, and have a busy lifestyle:
@@ -235,7 +235,7 @@
               <p>The state-of-the-art of our mobile app is the implementation of Artificial Intelligence, particularly the Convolutional Neural Network in Machine Learning to help identify the type of plants that users favor. From the image which users take or provide, the app will recognize and output the type of plants based on what they have “learnt” from the input data which data scientists have used to train the model.
               Below is the process of how machine learning is usually conducted:</p>
               <div style="text-align:center">
-                <img src="./images/Mai/MachineLearning.png" alt="">
+                <img src="../images/Mai/MachineLearning.png" alt="">
               </div>
               <br>❖	<u>Front-end</u>
               <p>The approach we use in the step of front-end development is platform-specific native, by which the code will be written separately for Android and iOS. To develop the app for iOS, we will use the IDE of XCode and to develop the app for Android, Visual Studio Code will be used.</p>
@@ -310,12 +310,12 @@
               <p>
                 Through the process of training model, it will output a filter (kernel) which consists of arrays of weights. These weights will be multiplied with the input, i.e. the image provided by the users. However, the multiplication does not operate at the same time. The filter will be smaller than the input and it will repeatedly scan through the input array, carry out the multiplication to create a feature map (Figure 1). In this case we will use a 3x3 filter as the colored input image has 3 channels for red, green, and blue.
                 <div style="text-align:center">
-                  <img src="./images/Mai/Feature map.png" alt="">
+                  <img src="../images/Mai/Feature map.png" alt="">
                   <i>Figure 1</i>
                 </div>
                 To be more specific, we will have different filters to extract different features from the image and multiple layers of filters to extract lower-level features from the previous layer. In other words, the output of the first layer (for example, lines) is the input of the second layer, and the output of the second layer (for example, connected lines which generate basic shape of the leaf) is the input of the third layer, and so on. It should be reinforced that the feature map created after each max-pooling layer will contain the most highlighted features from the former layer (Figure 2).
                 <div style="text-align:center">
-                  <img src="./images/Mai/CNN.png" alt="">
+                  <img src="../images/Mai/CNN.png" alt="">
                   <i>Figure 2</i>
                 </div>
                 Through this repeated process, our app will detect the color, the vein, the leaf shape, and other superficial features that distinguish a type of plant from another from very basic and based on these outputs, it will conduct the classification and give the users the name of the plants they are interested in.
